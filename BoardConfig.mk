@@ -31,6 +31,7 @@ BOARD_HAS_QCA_FM_SOC := "cherokee"
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_payton_defconfig
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/touch.xml
