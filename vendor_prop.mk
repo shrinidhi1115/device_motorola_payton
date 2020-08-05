@@ -24,6 +24,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.media_vol_steps=25
 
+# HW Overlay
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.disable_hwc=1
+
 # NavBar
 PRODUCT_PROPERTY_OVERRIDES += \
     qemu.hw.mainkeys=0
