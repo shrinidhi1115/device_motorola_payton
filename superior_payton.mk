@@ -22,6 +22,9 @@ $(call inherit-product, vendor/superior/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 DEVICE_MAINTAINERS="Dhinesh"
 
+# Launcher
+TARGET_LAUNCHER := oplauncher
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
